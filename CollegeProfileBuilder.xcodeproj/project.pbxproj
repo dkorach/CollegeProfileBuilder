@@ -14,6 +14,7 @@
 		377F837F1D46981500BA28BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377F837D1D46981500BA28BA /* LaunchScreen.storyboard */; };
 		377F838A1D46981500BA28BA /* CollegeProfileBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F83891D46981500BA28BA /* CollegeProfileBuilderTests.swift */; };
 		377F83951D46981500BA28BA /* CollegeProfileBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F83941D46981500BA28BA /* CollegeProfileBuilderUITests.swift */; };
+		377F83A31D46995800BA28BA /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F83A21D46995800BA28BA /* College.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		377F83901D46981500BA28BA /* CollegeProfileBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeProfileBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377F83941D46981500BA28BA /* CollegeProfileBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeProfileBuilderUITests.swift; sourceTree = "<group>"; };
 		377F83961D46981500BA28BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377F83A21D46995800BA28BA /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				377F83741D46981500BA28BA /* AppDelegate.swift */,
 				377F83761D46981500BA28BA /* ViewController.swift */,
+				377F83A21D46995800BA28BA /* College.swift */,
 				377F83781D46981500BA28BA /* Main.storyboard */,
 				377F837B1D46981500BA28BA /* Assets.xcassets */,
 				377F837D1D46981500BA28BA /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				377F83771D46981500BA28BA /* ViewController.swift in Sources */,
 				377F83751D46981500BA28BA /* AppDelegate.swift in Sources */,
+				377F83A31D46995800BA28BA /* College.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="0N8-bm-s6O">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="v2E-Rz-BHK" customClass="ViewController" customModule="TableViewHackwich" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="v2E-Rz-BHK" customClass="ViewController" customModule="CollegeProfileBuilder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fZS-2s-8gm"/>
                         <viewControllerLayoutGuide type="bottom" id="zsb-wp-obC"/>
