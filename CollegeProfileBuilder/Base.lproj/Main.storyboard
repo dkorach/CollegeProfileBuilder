@@ -63,7 +63,11 @@
                                 <action selector="onTappedEditButton:" destination="v2E-Rz-BHK" id="syR-zn-AFa"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="sMa-sO-Lcr"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="sMa-sO-Lcr">
+                            <connections>
+                                <action selector="onTappedPlusButton:" destination="v2E-Rz-BHK" id="6te-Ak-kab"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="editButton" destination="4qe-6o-fF4" id="jKv-4R-Zxx"/>

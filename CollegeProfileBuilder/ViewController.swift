@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         editButton.tag = 0
         colleges.append(College(name: "University of Illinois", state: "Illinois", enrollment: 44087, image: UIImage(named: "Illinois")!))
         colleges.append(College(name: "University of Michigan", state: "Michigan", enrollment: 43625, image: UIImage(named: "Michigan")!))
-        colleges.append(College(name: "University of Texas ", state: "Washington", enrollment: 50950, image: UIImage(named: "Texas")!))
+        colleges.append(College(name: "University of Texas ", state: "Texas", enrollment: 50950, image: UIImage(named: "Texas")!))
 
     }
     
@@ -44,7 +44,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
 }
 
-    @IBAction func onTappedPlusButton(sender: UIBarButtonItem) {
+    
+    @IBAction func onTappedPlusButton(sender: AnyObject) {
         let alert = UIAlertController(title: "Add College", message: nil, preferredStyle: .Alert)
         alert.addTextFieldWithConfigurationHandler { (textField) in
             textField.placeholder = "Add College Here"
